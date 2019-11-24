@@ -23,22 +23,18 @@ currentPlayer.position += x;
 
   switch (currentPlayer.position)
   {
-  //ladder
-  case 8:
-  currentPlayer.position = 15
-  alert(currentPlayer.name +" stepped on ladder. Climb to 15!");
-  break;
-  //ladder
   case 19:
   currentPlayer.position = 24;
   alert(currentPlayer.name +" stepped on ladder. Climb to 24!");
   break;
-  //snake
+  case 8:
+  currentPlayer.position = 15
+  alert(currentPlayer.name +" stepped on ladder. Climb to 15!");
+  //break;
   case 15:
   currentPlayer.position = 5;
   alert(currentPlayer.name +" stepped on snake! Go down to 5");
   break;
-  //snake
   case 23:
   currentPlayer.position = 15;
     alert(currentPlayer.name + " stepped on snake! Go down to 16");
